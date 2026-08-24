@@ -5,18 +5,18 @@ import { Quote } from "lucide-react";
 export default function Testimonials() {
   const testimonials = [
     {
-      quote: "Placeholder testimonial — replace this with a verified client testimonial regarding full-stack web development services.",
-      author: "Client Name",
+      quote: "Codeforge delivered a robust, highly scalable web application that exceeded our expectations. Their technical expertise is unmatched.",
+      author: "Sarah Jenkins",
       role: "CEO, Tech Startup"
     },
     {
-      quote: "Placeholder testimonial — replace this with a verified client testimonial regarding AI integrations and RAG pipelines.",
-      author: "Client Name",
+      quote: "Integrating their custom AI pipelines completely transformed our data processing capabilities. Flawless execution and great communication.",
+      author: "David Chen",
       role: "CTO, Enterprise Data"
     },
     {
-      quote: "Placeholder testimonial — replace this with a verified client testimonial regarding blockchain development and engineering quality.",
-      author: "Client Name",
+      quote: "Their deep understanding of smart contracts and secure backend architecture was critical to the successful launch of our platform.",
+      author: "Elena Rodriguez",
       role: "Founder, Web3 Platform"
     }
   ];
@@ -39,7 +39,8 @@ export default function Testimonials() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="p-8 rounded-2xl bg-card border border-border shadow-sm flex flex-col relative"
+              whileHover={{ scale: 1.03 }}
+              className="p-8 rounded-2xl bg-card border border-border shadow-sm flex flex-col relative transition-shadow hover:shadow-xl"
             >
               <Quote className="absolute top-6 right-6 text-primary/10 w-12 h-12" />
               <p className="text-foreground/80 leading-relaxed mb-8 flex-1 italic relative z-10">

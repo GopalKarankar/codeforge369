@@ -58,6 +58,7 @@ export default function Projects() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
+              whileHover={{ y: -8 }}
               className="group rounded-2xl bg-card border border-border overflow-hidden shadow-sm hover:shadow-xl transition-all flex flex-col"
             >
               {/* Placeholder for project image */}

@@ -49,9 +49,10 @@ export default function Technologies() {
               key={category.name}
               initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.4, delay: index * 0.1 }}
-              className="bg-card rounded-2xl p-6 md:p-8 border border-border shadow-sm"
+              whileHover={{ scale: 1.02 }}
+              className="bg-card rounded-2xl p-6 md:p-8 border border-border shadow-sm transition-shadow hover:shadow-md"
             >
               <h3 className="text-xl font-semibold mb-6 flex items-center gap-3">
                 <div className="w-2 h-2 rounded-full bg-primary"></div>
