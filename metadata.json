@@ -1,0 +1,8 @@
+{
+  "name": "Codeforge",
+  "description": "Codeforge is a premium software development company building scalable web applications, AI-powered products, and modern digital experiences.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
